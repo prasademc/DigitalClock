@@ -3,14 +3,15 @@
   <head>
     <meta charset='utf-8'>
     <title>Ractive.js example - Digital clock</title>
+    <link rel="stylesheet" type="text/css" href="styles/default.css"></link>
   </head>
-
   <body>
     <div id='container'></div>
     <script id='template' type='text/ractive'>
-      <p>Hello, {{name}}!</p>
+    <p>Hello, {{name}}!</p>
+    <a href="#">{{name}}</a>
     </script>
-    <script src='vendor/ractive.min.js'></script>
+    <script src='vendor/ractive.js'></script>
     <script src='scripts/main.js'></script>
   </body>
 </html>

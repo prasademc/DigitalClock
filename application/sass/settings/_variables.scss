@@ -1,0 +1,93 @@
+/****************************************************************************************
+*****************************   Break points for responsive   ***************************
+****************************************************************************************/
+$breakpoints: (
+    'under-small-screen': 491px,
+    'small-screen': 492px,
+    'under-medium-screen': 851px,
+    'medium-screen': 852px,
+    'under-large-screen': 1019px,
+    'large-screen': 1020px,
+    'xlarge-screen': 1200px,
+);
+
+/****************************************************************************************
+***************************************   Colors   **************************************
+****************************************************************************************/
+$black: #000000;
+$white: #FFFFFF;
+$orange: #E36F1E;
+$green: #78A22F;
+$red: #C41C30;
+$yellow: #FDB913;
+$grape: #B0237C;
+$gray: #333333;
+
+$colorchips: (
+    'orange': (
+        base:  $orange,
+        light: lighten($orange, 10%),
+        dark: darken($orange, 10%)
+    ),
+    'green': (
+        base:  $green,
+        light: lighten($green, 10%),
+        dark: darken($green, 10%)
+    ),
+    'red': (
+        base:  $red,
+        light: lighten($red, 10%),
+        dark: darken($red, 10%)
+    ),
+    'yellow': (
+        base:  $yellow,
+        light: lighten($yellow, 10%),
+        dark: darken($yellow, 10%)
+    ),
+    'grape': (
+        base:  $grape,
+        light: lighten($grape, 10%),
+        dark: darken($grape, 10%)
+    ),
+    'gray': (
+        base: $gray,
+        light: lighten($gray, 20%),
+        dark: darken($gray, 30%)
+    )
+);
+
+
+/****************************************************************************************
+************************ Padding, Margins and Border Radius *****************************
+****************************************************************************************/
+$margin: 15px;
+$padding: 15px;
+$borderRadius: 5px;
+
+
+/****************************************************************************************
+*************************************** Paths *******************************************
+****************************************************************************************/
+$fontPath: 'assets/fonts/';
+$imagePath: 'assets/images/';
+
+
+/****************************************************************************************
+**************************************** Fonts ******************************************
+****************************************************************************************/
+$regularFont: 'RobotoSlab-Regular';
+$lightFont: 'RobotoSlab-Light';
+$thinFont: 'RobotoSlab-Thin';
+$heavyFont: 'RobotoSlab-Bold';
+$iconFont: 'fontawesome';
+
+$fallbackFontFamily: Arial, sans-serif;
+$primaryFontFamily: $regularFont, $fallbackFontFamily;
+$secondaryFontFamily: $heavyFont, $fallbackFontFamily;
+$tertiaryFontFamily: $lightFont, $fallbackFontFamily;
+$quaternaryFontFamily: $thinFont, $fallbackFontFamily;
+
+
+/****************************************************************************************
+*************************************** Form ********************************************
+****************************************************************************************/

@@ -1,0 +1,3 @@
+@function colorchip($color, $tone: 'base') {
+    @return map-get(map-get($colorchips, $color), $tone);
+}

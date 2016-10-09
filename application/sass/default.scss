@@ -1,5 +1,20 @@
-body {
+@import "imports/normalize";
+@import "imports/utilities";
+@import "vendor/font-awesome/font-awesome";
+
+@import "settings/variables";
+@import "functions/colorchips";
+//@import "mixins/colorchips";
+
+html, body {
 	margin: 0;
 	padding: 0;
-	background-color: #dfdfdf;
+	background-color: colorchip(gray, light);
+}
+
+A {
+    color: colorchip(grape);
+    &:hover {
+        color: colorchip(grape, dark);
+    }
 }
